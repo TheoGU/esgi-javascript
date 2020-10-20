@@ -11,14 +11,11 @@ Use the docker-compose.
 docker-compose run node node ./intro/hello.js
 ```
 
-## Usage
+## Structure
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+All the exercises are in
+```
+./exercise[NUM]
 ```
 
 ## [SCHOOL PROJECT]
