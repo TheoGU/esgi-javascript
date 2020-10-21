@@ -27,7 +27,7 @@ function camelCase(str){
 function snake_case(str){
     if(isNotString(str)) return ""
 
-    return str.replace(' ', '_').toLowerCase()
+    return str.split(' ').join('_').toLowerCase()
 }
 
 
@@ -48,4 +48,4 @@ function yoda(str){
 
 
 
-console.log(camelCase("hello world_ijij"))
+console.log(snake_case("toggle case is the coolest"))
