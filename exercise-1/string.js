@@ -18,8 +18,9 @@ function capitalize(str){
 
 function camelCase(str){
     if(isNotString(str)) return ""
+    
 
-    return str.split(' ').map(w => ucfirst(w.toLowerCase())).join('')
+    return str.replace('_', ' ').split(' ').map(w => ucfirst(w.toLowerCase())).join('')
 }
 
 
@@ -47,4 +48,4 @@ function yoda(str){
 
 
 
-console.log(yoda("hello world"))
+console.log(camelCase("hello world_ijij"))
