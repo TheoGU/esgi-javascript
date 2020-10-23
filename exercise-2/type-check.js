@@ -49,8 +49,3 @@ const obj = {
     }
 }
 
-
-
-
-
-console.log(type_check_v2()
