@@ -18,4 +18,11 @@ All the exercises are in
 ./exercise[NUM]
 ```
 
+## Checker
+
+Tester functions
+```
+https://github.com/kmarques/esgi-javascript
+```
+
 ## [SCHOOL PROJECT]
